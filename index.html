@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Respositório UJES</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div>
+        <p class="eyebrow">Instituto Politécnico do Huambo</p>
+        <h1>Respositório UJES</h1>
+        <p class="subtitle">Trabalhos de fim de curso de Licenciatura, MSc e PhD</p>
+      </div>
+      <nav aria-label="Navegação principal">
+        <ul class="nav-list">
+          <li><a href="index.html">Início</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section-hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">Repositório Acadêmico</p>
+          <h2>Descubra os melhores trabalhos de fim de curso do IP Huambo</h2>
+          <p>Um front-end moderno e leve para explorar projetos de Licenciatura, MSc e PhD com filtros, pesquisa e detalhes completos.</p>
+          <div class="hero-actions">
+            <a class="button-primary" href="#lista">Ver trabalhos</a>
+            <a class="button-secondary" href="sobre.html">Conhecer o repositório</a>
+          </div>
+        </div>
+        <div class="hero-card card-glass">
+          <p class="overline">Categorias mais relevantes</p>
+          <div class="hero-list">
+            <div>
+              <strong>Licenciatura</strong>
+              <p>Soluções práticas e aplicações para desafios locais.</p>
+            </div>
+            <div>
+              <strong>MSc</strong>
+              <p>Projetos com análise técnica e profundidade acadêmica.</p>
+            </div>
+            <div>
+              <strong>PhD</strong>
+              <p>Investigações avançadas com impacto em políticas e ciência.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-light" id="lista">
+      <div class="container">
+        <div class="controls">
+          <div class="search-wrapper">
+            <label for="search-input">Pesquisar trabalhos</label>
+            <input id="search-input" type="search" placeholder="Digite título, autor, área ou ano" />
+          </div>
+          <div class="filters" role="group" aria-label="Filtrar por tipo de trabalho">
+            <button data-category="all" class="filter active">Todos</button>
+            <button data-category="Licenciatura" class="filter">Licenciatura</button>
+            <button data-category="MSc" class="filter">MSc</button>
+            <button data-category="PhD" class="filter">PhD</button>
+          </div>
+        </div>
+
+        <div class="works-grid" id="works-grid" aria-live="polite"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Respositório UJES — Instituto Politécnico do Huambo da Universidade José Eduardo dos Santos</p>
+
+      <p>By Horácio Bueti Katimba</p>
+    </div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/index.js"></script>
+</body>
+</html>

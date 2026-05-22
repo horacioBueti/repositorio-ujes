@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Detalhes do Trabalho | Respositório UJES</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div>
+        <p class="eyebrow">Instituto Politécnico do Huambo</p>
+        <h1>Respositório UJES</h1>
+      </div>
+      <nav aria-label="Navegação principal">
+        <ul class="nav-list">
+          <li><a href="index.html">Início</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="detail-hero section-light">
+      <div class="container">
+        <p class="eyebrow">Detalhes do trabalho</p>
+        <h2 id="work-title">Carregando detalhes...</h2>
+        <p id="work-subtitle" class="subtitle">Saiba mais sobre o trabalho acadêmico selecionado.</p>
+      </div>
+    </section>
+
+    <section class="section-dark detail-section">
+      <div class="container detail-layout">
+        <article class="detail-panel card-glass" id="work-card">
+          <p class="badge" id="work-category">Categoria</p>
+          <h3 id="work-name"></h3>
+          <p class="work-meta" id="work-meta"></p>
+          <p id="work-summary"></p>
+
+          <dl class="detail-list">
+            <div>
+              <dt>Autor</dt>
+              <dd id="work-author"></dd>
+            </div>
+            <div>
+              <dt>Orientador</dt>
+              <dd id="work-supervisor"></dd>
+            </div>
+            <div>
+              <dt>Ano</dt>
+              <dd id="work-year"></dd>
+            </div>
+            <div>
+              <dt>Área temática</dt>
+              <dd id="work-area"></dd>
+            </div>
+          </dl>
+
+          <div class="card-actions">
+            <a id="work-link" class="button-primary" href="#" target="_blank" rel="noopener">Abrir trabalho</a>
+            <a class="button-secondary" href="index.html">Voltar à lista</a>
+          </div>
+        </article>
+
+        <aside class="related-card card-glass" id="related-works">
+          <h4>Outros trabalhos</h4>
+          <div id="related-list"></div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Respositório UJES — Instituto Politécnico do Huambo da Universidade José Eduardo dos Santos</p>
+    </div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/project.js"></script>
+</body>
+</html>
