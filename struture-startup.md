@@ -66,5 +66,16 @@ Resolve:
 
 * fome,
 * desperdício,
+
+---
+Interessante, 
+
+vê uma boa IA gratuita para criar apresentação (powerpoint).
+
+Outro, sim inclua também:
+
+Tecnologias que pretendes usar (liguagem - backend e front-end, tipo de solução - web, mobile, tipos de db - relacional noSQL, arquitectura, framework, tipos de hospedagem - compartilhada, VPS, Serv. dedicado e outros).
+
+E ainda em tecnologias especificações técnicas, arquitectura, velocidade de resposta, largura da banda mínima e outros.
 * desemprego,
 * dependência de importação.
